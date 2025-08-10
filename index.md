@@ -17,7 +17,19 @@ This is a great place to showcase my projects, share my thoughts, and connect wi
 
 ### Latest Blog Posts
 
-- [My First Blog Post](/2025-08-10-my-first-post.md)
-- [How to use the Cayman Theme](/2025-08-15-how-to-use-cayman.md)
+{% for post in site.posts %}
+  <div class="post-item">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p class="post-meta">
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+      {% if post.author %}
+        <span> by {{ post.author }}</span>
+      {% endif %}
+    </p>
+    <div class="post-excerpt">
+      {{ post.excerpt }}
+    </div>
+  </div>
+{% endfor %}
 
 Happy reading!
