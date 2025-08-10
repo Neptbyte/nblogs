@@ -1,23 +1,23 @@
 ---
 layout: default
-title: Home
+title: My Awesome Website
 ---
-# Welcome to My GitHub Pages Blog
 
-This is the homepage of my new website.
+# Hello, World!
 
-I'm using the **Cayman theme** for my GitHub Pages blog. It's a clean and simple theme that's easy to set up.
+Welcome to my personal website, powered by GitHub Pages and the elegant Cayman theme.
 
-## What you'll find here
+This is a great place to showcase my projects, share my thoughts, and connect with the community.
 
-- **Blog Posts:** I'll be writing about my projects and thoughts.
-- **Projects:** I'll showcase some of the cool things I've built.
-- **About Me:** Learn more about who I am and what I do.
+## About this Site
 
-Thanks for visiting! Feel free to check out my other pages or read my latest blog posts.
+- **Easy to set up:** Thanks to Jekyll and the `remote_theme` feature, getting this site up and running was a breeze.
+- **Clean design:** The Cayman theme provides a simple, responsive, and professional look.
+- **Markdown-based:** All content is written in Markdown, making it easy to create and update posts.
 
-[Link to my first blog post](/2025-08-10-my-first-post.md)
+### Latest Blog Posts
 
----
-- GitHub: [your-github-profile](https://github.com/your-username)
+- [My First Blog Post](/2025-08-10-my-first-post.md)
+- [How to use the Cayman Theme](/2025-08-15-how-to-use-cayman.md)
 
+Happy reading!
